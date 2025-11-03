@@ -1,0 +1,32 @@
+/* 自定义样式 */
+.vp-doc {
+  /* 确保数学公式正确显示 */
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* 代码块样式优化 */
+.vp-code-group {
+  margin: 16px 0;
+}
+
+/* 表格样式优化 */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+
